@@ -20,9 +20,9 @@ close.addEventListener('click', () =>{
 
 let t1 = gsap.timeline({default: { ease: "powe4.inOut", duration: 1}});
 t1.to('.nav',{
-  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.5, stagger: .2 })
+  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.4, stagger: .2 })
 .to('.sectionz',{
-  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.8 })
+  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.4 })
 .to('.h1',{
   'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0,  })
   .to('.p', {'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0,});
@@ -38,7 +38,7 @@ t1.to('.nav',{
     'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',
     opacity: 1,
     y: 0,
-    duration: 0.8,
+    duration: 0.5,
     stagger: .1 
   });
   
@@ -65,7 +65,7 @@ t1.to('.nav',{
     'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)',
     opacity: 1,
     y: 0,
-    duration: 0.6,
+    duration: 0.4,
     stagger: .2 
   });
   
