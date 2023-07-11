@@ -18,9 +18,9 @@ close.addEventListener('click', () =>{
 //magnet
 
 
-let t1 = gsap.timeline({default: { ease: "powe4.inOut", duration: 1}});
+let t1 = gsap.timeline({default: { ease: "powe4.inOut", duration: 0.4}});
 t1.to('.nav',{
-  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.1, stagger: .2 })
+  'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.1, stagger: .1 })
 .to('.sectionz',{
   'clip-path': 'polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)', opacity: 1, y: 0, duration :0.1 })
 .to('.h1',{
